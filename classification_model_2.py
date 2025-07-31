@@ -35,20 +35,20 @@ st.markdown(
 
     html, body, [class*="st-"] {
         font-family: 'Inter', sans-serif;
-        color: #333333; /* Darker text for better contrast */
+        color: #E0E0E0; /* Light grey text for dark background */
     }
     .stApp {
-        background-color: #f0f2f6; /* Light grey background */
+        background-color: #121212; /* Dark background color (almost black) */
     }
     .st-emotion-cache-cnbvjp { /* Target the main block container */
-        background-color: #ffffff; /* White background for content blocks */
+        background-color: #1E1E1E; /* Slightly lighter dark background for content blocks */
         padding: 2rem;
         border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow for contrast */
         margin-bottom: 1.5rem;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #2c3e50; /* Darker header color */
+        color: #F0F0F0; /* Lighter header color */
     }
     .stButton>button {
         background-color: #3498db; /* Blue button */
@@ -63,20 +63,20 @@ st.markdown(
         background-color: #2980b9; /* Darker blue on hover */
     }
     .stSuccess {
-        background-color: #e6ffe6;
-        color: #28a745;
+        background-color: #28a745; /* Green background for success */
+        color: white; /* White text for success */
         border-radius: 5px;
         padding: 10px;
     }
     .stWarning {
-        background-color: #fff3e6;
-        color: #ffc107;
+        background-color: #ffc107; /* Orange background for warning */
+        color: #333333; /* Dark text for warning */
         border-radius: 5px;
         padding: 10px;
     }
     .stInfo {
-        background-color: #e6f7ff;
-        color: #17a2b8;
+        background-color: #17a2b8; /* Teal background for info */
+        color: white; /* White text for info */
         border-radius: 5px;
         padding: 10px;
     }
@@ -98,18 +98,18 @@ st.markdown(
     }
 
     .st-emotion-cache-1uj2z2h td { /* Table data cells */
-        background-color: #f8f8f8; /* Light grey background for cells */
-        color: #333333; /* Dark text for readability */
+        background-color: #282828; /* Dark grey background for cells */
+        color: #CCCCCC; /* Light grey text for readability */
         padding: 10px 15px;
-        border-bottom: 1px solid #ddd; /* Light grey border between rows */
+        border-bottom: 1px solid #444444; /* Darker border between rows */
     }
 
     .st-emotion-cache-1uj2z2h tr:nth-child(even) td { /* Alternate row background for readability */
-        background-color: #eef2f7; /* Slightly darker grey for even rows */
+        background-color: #222222; /* Slightly different dark grey for even rows */
     }
 
     .st-emotion-cache-1uj2z2h tr:hover td { /* Hover effect for rows */
-        background-color: #dbe4ed; /* Lighter blue on hover */
+        background-color: #3A3A3A; /* Lighter dark grey on hover */
     }
 
     </style>
